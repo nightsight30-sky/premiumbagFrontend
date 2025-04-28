@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/nightsight30-sky/premiumbagFrontend'
+                git branch: 'master', url: 'https://github.com/nightsight30-sky/premiumbagFrontend'
             }
         }
         stage('Build Docker Image') {

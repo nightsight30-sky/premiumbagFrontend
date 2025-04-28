@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "nightsight30/premiumbagFrontend"
+        DOCKER_IMAGE = "nightsight30/premiumbagfrontend"
         DOCKER_HUB_CREDENTIALS = "docker-hub-creds-v3"
-        CONTAINER_NAME = "premiumbagFrontend"
+        CONTAINER_NAME = "premiumbagfrontend"
         HOST_PORT = "8082"
     }
 
